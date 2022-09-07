@@ -8,7 +8,7 @@ int WINAPI WinMain(HINSTANCE hCopia, HINSTANCE hCopiaAnt, LPSTR szLinhaCmd, int 
     int pontuation_memory_address = 0x0475C2B0; // endereço, hexadecimal,que contém a pontuação do game
 
 
-    HWND id_of_game = FindWindow(0, "C:\\Users\\Marcu\\Desktop\\teste.exe");  // id do jogo que o sistema operacional nomeou
+    HWND id_of_game = FindWindow(0, "NOMEDOPROCESSO");  // id do jogo que o sistema operacional nomeou
 
     if(id_of_game == 0){
         printf("Error to access the program\n");
